@@ -67,7 +67,6 @@ function draw(){
     if(mousedown){
         var x = Math.round(mouse.x/pixelDims);
         var y = Math.round(mouse.y/pixelDims);
-        console.log(x + ' ' +y);
         Grid[x][y] = thickness;
     }
     ctx.clearRect(0,0,window.innerWidth, window.innerHeight);
