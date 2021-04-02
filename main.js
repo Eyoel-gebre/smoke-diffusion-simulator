@@ -114,6 +114,8 @@ function diffuse(){
     }
 }
 
+Grid[30][30] = 100; //small when program start
+
 //main loop
 setInterval(
     function(){
