@@ -4,9 +4,9 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 //custimizable vars
-var pixelDims =  10; //how big a single pixel is
+var pixelDims =  15; //how big a single pixel is
 var fps = 80;
-var thickness = 10; //how thick the smoke is lol
+var thickness = 5; //how thick the smoke is lol
 
 
 //mouse object
